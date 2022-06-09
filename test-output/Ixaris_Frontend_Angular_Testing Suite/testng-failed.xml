@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ixaris_Frontend_Angular_Testing Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ixaris_Frontend_Angular_Testing(failed)">
+    <classes>
+      <class name="TestCases.Add_New_Player">
+        <methods>
+          <include name="Add_New_Player_Existing_Team"/>
+          <include name="tearDown"/>
+          <include name="Add_New_Player_New_Team"/>
+          <include name="Add_New_Player_Same_Name"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.Add_New_Player -->
+      <class name="TestCases.View_Player_Info">
+        <methods>
+          <include name="Players_With_Same_Name_View_Info"/>
+          <include name="tearDown"/>
+          <include name="View_Existing_Player_Info"/>
+          <include name="Add_New_Player_View_Info"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.View_Player_Info -->
+      <class name="TestCases.View_Team_Info">
+        <methods>
+          <include name="View_Team_Info"/>
+          <include name="tearDown"/>
+          <include name="Add_New_Team_New_Payer_Get_Team_Info"/>
+          <include name="Print_List_of_All_Players_in_Team"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.View_Team_Info -->
+      <class name="TestCases.View_Team_List">
+        <methods>
+          <include name="Add_Team_Verfy_Increase_Count_In_Team_List"/>
+          <include name="Print_Team_List"/>
+          <include name="Search_Existng_Team"/>
+          <include name="View_Team_List_After_Add__New_Team"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.View_Team_List -->
+      <class name="TestCases.View_Players_List">
+        <methods>
+          <include name="View_Player_List_After_Add__New_Player"/>
+          <include name="View_Players_List"/>
+          <include name="tearDown"/>
+          <include name="Add_Player_Verfy_Increase_Count_In_Player_List"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.View_Players_List -->
+    </classes>
+  </test> <!-- Ixaris_Frontend_Angular_Testing(failed) -->
+</suite> <!-- Failed suite [Ixaris_Frontend_Angular_Testing Suite] -->
